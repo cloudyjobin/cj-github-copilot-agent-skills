@@ -1,5 +1,6 @@
 ---
 applyTo: "**"
+description: Architecture review instructions.
 ---
 
 # Design Standards
