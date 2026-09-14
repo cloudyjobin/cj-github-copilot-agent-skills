@@ -6,7 +6,7 @@ description: >
   Install all packages at once or pick individual bundles.
 author: jobin
 license: MIT
-target: vscode
+target: copilot
 
 dependencies:
   apm:

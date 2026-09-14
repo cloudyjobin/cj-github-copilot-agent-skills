@@ -5,7 +5,7 @@ description: >
   for GitHub Copilot.
 author: thomast1906
 license: MIT
-target: vscode
+target: copilot
 
 dependencies:
   apm:
