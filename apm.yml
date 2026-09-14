@@ -6,8 +6,8 @@ description: >
   Install all packages at once or pick individual bundles.
 author: jobin
 license: MIT
-target: copilot
-
+targets:
+   - copilot
 dependencies:
   apm:
     - cloudyjobin/cj-github-copilot-agent-skills/packages/architect
