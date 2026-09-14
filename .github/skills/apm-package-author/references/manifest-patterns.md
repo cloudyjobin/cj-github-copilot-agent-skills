@@ -46,11 +46,11 @@ target: vscode
 dependencies:
   apm:
     # Agents
-    - thomast1906/github-copilot-agent-skills/.github/agents/azure-architect.agent.md
+    - cloudyjobin/cj-github-copilot-agent-skills/.github/agents/azure-architect.agent.md
     # Skills
-    - thomast1906/github-copilot-agent-skills/.github/skills/architecture-design
-    - thomast1906/github-copilot-agent-skills/.github/skills/waf-assessment
-    - thomast1906/github-copilot-agent-skills/.github/skills/azure-pricing
+    - cloudyjobin/cj-github-copilot-agent-skills/.github/skills/architecture-design
+    - cloudyjobin/cj-github-copilot-agent-skills/.github/skills/waf-assessment
+    - cloudyjobin/cj-github-copilot-agent-skills/.github/skills/azure-pricing
     # cost-optimization excluded — WIP
 ```
 
@@ -72,12 +72,12 @@ target: vscode
 
 dependencies:
   apm:
-    - thomast1906/github-copilot-agent-skills/packages/architect
-    - thomast1906/github-copilot-agent-skills/packages/terraform
-    - thomast1906/github-copilot-agent-skills/packages/diagramming
+    - cloudyjobin/cj-github-copilot-agent-skills/packages/architect
+    - cloudyjobin/cj-github-copilot-agent-skills/packages/terraform
+    - cloudyjobin/cj-github-copilot-agent-skills/packages/diagramming
 ```
 
-Users install everything with: `apm install thomast1906/github-copilot-agent-skills --runtime vscode`
+Users install everything with: `apm install cloudyjobin/cj-github-copilot-agent-skills --runtime vscode`
 
 ---
 
@@ -98,9 +98,9 @@ target: vscode
 
 dependencies:
   apm:
-    - thomast1906/github-copilot-agent-skills/.github/skills/drawio-mcp-diagramming
-    - thomast1906/github-copilot-agent-skills/.github/skills/azure-drawio-mcp-diagramming
-    - thomast1906/github-copilot-agent-skills/.github/skills/excalidraw-mcp-diagramming
+    - cloudyjobin/cj-github-copilot-agent-skills/.github/skills/drawio-mcp-diagramming
+    - cloudyjobin/cj-github-copilot-agent-skills/.github/skills/azure-drawio-mcp-diagramming
+    - cloudyjobin/cj-github-copilot-agent-skills/.github/skills/excalidraw-mcp-diagramming
   mcp:
     - name: drawio
       registry: false

@@ -4,13 +4,13 @@ description: >
   A curated collection of GitHub Copilot agent skills, agents, and packages for
   Azure architecture, Terraform, GitHub Agentic Workflows, and diagramming.
   Install all packages at once or pick individual bundles.
-author: thomast1906
+author: jobin
 license: MIT
 target: vscode
 
 dependencies:
   apm:
-    - thomast1906/github-copilot-agent-skills/packages/architect
-    - thomast1906/github-copilot-agent-skills/packages/terraform
-    - thomast1906/github-copilot-agent-skills/packages/diagramming
-    - thomast1906/github-copilot-agent-skills/packages/drawio-mcp-diagramming
+    - cloudyjobin/cj-github-copilot-agent-skills/packages/architect
+    - cloudyjobin/cj-github-copilot-agent-skills/packages/terraform
+    - cloudyjobin/cj-github-copilot-agent-skills/packages/diagramming
+    - cloudyjobin/cj-github-copilot-agent-skills/packages/drawio-mcp-diagramming

@@ -11,7 +11,7 @@ target: vscode
 dependencies:
   apm:
     # Skills
-    - thomast1906/github-copilot-agent-skills/.github/skills/drawio-mcp-diagramming
+    - cloudyjobin/cj-github-copilot-agent-skills/.github/skills/drawio-mcp-diagramming
   mcp:
     - name: drawio
       registry: false

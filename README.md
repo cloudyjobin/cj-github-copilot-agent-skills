@@ -1,6 +1,6 @@
 # GitHub Copilot Agent Skills
 
-[![skills.sh](https://skills.sh/b/thomast1906/github-copilot-agent-skills)](https://www.skills.sh/thomast1906/github-copilot-agent-skills) Only added 28/07/2026 - stats will be low until engagement follows this :)
+[![skills.sh](https://skills.sh/b/cloudyjobin/cj-github-copilot-agent-skills)](https://www.skills.sh/cloudyjobin/cj-github-copilot-agent-skills) Only added 28/07/2026 - stats will be low until engagement follows this :)
 
 A curated collection of reusable agent skills and GitHub Copilot Chat agents covering Azure architecture, API Management, Terraform, diagramming, GitHub Agentic Workflows, and skill authoring. Each skill encapsulates engineering guidance and structured workflows so you do not have to restate context in every chat session.
 
@@ -10,7 +10,7 @@ Install the full curated collection with APM, pick an individual skill through t
 
 ## Browse the skills
 
-The repository is indexed at **[skills.sh/thomast1906/github-copilot-agent-skills](https://www.skills.sh/thomast1906/github-copilot-agent-skills)**, where you can browse individual skills, view their descriptions, and see skills.sh-specific installation statistics. Note that the skills.sh counters reflect installs made through the skills.sh platform and CLI; they do not include APM installations, Git clones, or manual copies.
+The repository is indexed at **[skills.sh/cloudyjobin/cj-github-copilot-agent-skills](https://www.skills.sh/cloudyjobin/cj-github-copilot-agent-skills)**, where you can browse individual skills, view their descriptions, and see skills.sh-specific installation statistics. Note that the skills.sh counters reflect installs made through the skills.sh platform and CLI; they do not include APM installations, Git clones, or manual copies.
 
 For the full source, examples, scripts, history, and contribution process, this GitHub repository remains the canonical reference.
 
@@ -38,7 +38,7 @@ irm https://aka.ms/apm-windows | iex
 Use the skills CLI when you want to browse the catalogue or install a single skill without pulling in a full bundle.
 
 ```bash
-npx skills add thomast1906/github-copilot-agent-skills
+npx skills add cloudyjobin/cj-github-copilot-agent-skills
 ```
 
 ---
@@ -50,16 +50,16 @@ APM installs skills, agents, and MCP server configuration together. The root pac
 **Install the full curated collection:**
 
 ```bash
-apm install thomast1906/github-copilot-agent-skills
+apm install cloudyjobin/cj-github-copilot-agent-skills
 ```
 
 **Install an individual bundle:**
 
 ```bash
-apm install thomast1906/github-copilot-agent-skills/packages/architect
-apm install thomast1906/github-copilot-agent-skills/packages/terraform
-apm install thomast1906/github-copilot-agent-skills/packages/diagramming
-apm install thomast1906/github-copilot-agent-skills/packages/drawio-mcp-diagramming
+apm install cloudyjobin/cj-github-copilot-agent-skills/packages/architect
+apm install cloudyjobin/cj-github-copilot-agent-skills/packages/terraform
+apm install cloudyjobin/cj-github-copilot-agent-skills/packages/diagramming
+apm install cloudyjobin/cj-github-copilot-agent-skills/packages/drawio-mcp-diagramming
 ```
 
 APM deploys agents and MCP configuration to the selected target. By default, skills are placed in `.agents/skills/`. Use `--legacy-skill-paths` if you need per-client directories such as `.github/skills/`.
@@ -71,7 +71,7 @@ APM deploys agents and MCP configuration to the selected target. By default, ski
 Clone or fork the repository to access every skill, including work in progress, and to contribute changes.
 
 ```bash
-git clone https://github.com/thomast1906/github-copilot-agent-skills.git
+git clone https://github.com/cloudyjobin/cj-github-copilot-agent-skills.git
 ```
 
 Open the folder in VS Code, ensure GitHub Copilot Chat is enabled, and start the MCP servers relevant to the skills you plan to use (see [MCP servers](#mcp-servers) below). Then invoke a skill explicitly:
@@ -151,8 +151,8 @@ Select an agent from the GitHub Copilot Chat agent picker for a guided, role-spe
 
 | Goal | Recommended approach |
 |---|---|
-| Browse or install a single skill | skills CLI: `npx skills add thomast1906/github-copilot-agent-skills` |
-| Reproducible install of a full bundle with MCP configuration | APM: `apm install thomast1906/github-copilot-agent-skills` |
+| Browse or install a single skill | skills CLI: `npx skills add cloudyjobin/cj-github-copilot-agent-skills` |
+| Reproducible install of a full bundle with MCP configuration | APM: `apm install cloudyjobin/cj-github-copilot-agent-skills` |
 | Review source, examples, history, or contribution process | Clone this repository |
 
 ---
