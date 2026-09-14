@@ -39,7 +39,7 @@ version: 1.0.0
 description: >
   Azure architecture design, WAF/CAF assessment, and live pricing skills and
   agent for GitHub Copilot.
-author: thomast1906
+author: cjjobin
 license: MIT
 target: vscode
 
@@ -66,7 +66,7 @@ name: github-copilot-agent-skills
 version: 1.0.0
 description: >
   Install all agents, skills, and MCP configs from this repo at once.
-author: thomast1906
+author: cjjobin
 license: MIT
 target: vscode
 
@@ -92,7 +92,7 @@ version: 1.0.0
 description: >
   Draw.io and Excalidraw diagramming skills for GitHub Copilot, with MCP
   servers pre-configured.
-author: thomast1906
+author: cjjobin
 license: MIT
 target: vscode
 

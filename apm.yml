@@ -4,7 +4,7 @@ description: >
   A curated collection of GitHub Copilot agent skills, agents, and packages for
   Azure architecture, Terraform, GitHub Agentic Workflows, and diagramming.
   Install all packages at once or pick individual bundles.
-author: jobin
+author: cjjobin
 license: MIT
 targets:
    - copilot
